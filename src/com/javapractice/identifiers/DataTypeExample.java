@@ -11,7 +11,7 @@ public class DataTypeExample {
         float performanceRating = 4.5f;       // Rating out of 5
         double salary = 75000.55;             // Monthly salary
         char grade = 'A';                     // Grade level
-        boolean isLoggedIn = false;            // Login status
+        boolean isLoggedIn = true;            // Login status
 
         // Non-Primitive Data Types
         String employeeName = "Alice Johnson";           // Name of the employee
