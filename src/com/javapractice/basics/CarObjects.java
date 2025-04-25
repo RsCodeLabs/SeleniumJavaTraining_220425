@@ -1,3 +1,5 @@
+package com.javapractice.basics;
+
 public class CarObjects {
 
     public static void main(String[] args) {
@@ -10,8 +12,8 @@ public class CarObjects {
          car2.color="blue";
          car2.speed=150;
 
-        System.out.println("Car 1 color: " + car1.color);
-        System.out.println("Car 1 speed: " + car1.speed);
+        System.out.println("com.javapractice.basics.Car 1 color: " + car1.color);
+        System.out.println("com.javapractice.basics.Car 1 speed: " + car1.speed);
 
 
 

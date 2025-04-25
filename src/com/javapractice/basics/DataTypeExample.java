@@ -1,3 +1,5 @@
+package com.javapractice.basics;
+
 public class DataTypeExample {
     public static void main(String[] args) {
         long employee = 327692123223232L;

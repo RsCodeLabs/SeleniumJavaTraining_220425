@@ -1,3 +1,5 @@
+package com.javapractice.basics;
+
 public class Car {
     String color;
     int speed;

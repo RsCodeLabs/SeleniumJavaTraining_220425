@@ -1,3 +1,5 @@
+package com.javapractice.basics;
+
 public class Student {
     String name= "Ravi";
     int age = 25;
