@@ -2,6 +2,7 @@ package com.javapractice.identifiers;
 
 public class DataTypeExample {
 
+
     public static void main(String[] args) {
         // Primitive Data Types
         byte age = 30;                        // Employee age
