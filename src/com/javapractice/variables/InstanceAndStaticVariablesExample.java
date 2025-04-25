@@ -8,7 +8,7 @@ public class InstanceAndStaticVariablesExample {
         student1.name="Soumya";
         student1.rollNo=123;
         student1.display();
-        student1.schoolName="Saraswati Vidya Mandir";
+        student1.schoolName="High school";
         System.out.println("Schoo Name is"+ student1.schoolName);
 
 
