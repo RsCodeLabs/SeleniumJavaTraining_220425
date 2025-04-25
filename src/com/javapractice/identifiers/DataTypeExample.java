@@ -4,7 +4,7 @@ public class DataTypeExample {
 
 
     public static void main(String[] args) {
-        // Primitive Data Types
+        // Primitive Data Types examples
         byte age = 30;                        // Employee age
         short joiningYear = 2020;             // Year of joining
         int employeeId = 1001;                // Employee ID
