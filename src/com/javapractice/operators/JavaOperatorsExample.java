@@ -1,40 +1,51 @@
 package com.javapractice.operators;
 
 public class JavaOperatorsExample {
+
     public static void main(String[] args) {
+        // Arithmetic Operators
+        int a = 10, b = 5;
+        System.out.println("Addition: " + (a + b));         // 15
+        System.out.println("Subtraction: " + (a - b));      // 5
+        System.out.println("Multiplication: " + (a * b));   // 50
+        System.out.println("Division: " + (a / b));         // 2
+        System.out.println("Modulus: " + (a % b));          // 0
 
-        //Arthimetic operators
-        int a = 100;
-        int b = 20;
-        System.out.println("Addition is :"+ (a+b));
-        System.out.println("Modules is :"+ (a%10));
+        // Relational Operators
+        System.out.println("Is a > b? " + (a > b));         // true
+        System.out.println("Is a == b? " + (a == b));       // false
 
-        //Relational operatots
-        System.out.println("Is a>b? :"+ (a > b));
-        System.out.println("Is a,b? :"+ (a < b));
+        // Logical Operators
+        boolean x = true, y = false;
+        System.out.println("Logical AND: " + (x && y));     // false
+        System.out.println("Logical OR: " + (x || y));      // true
+        System.out.println("Logical NOT: " + (!x));         // false
 
-        //Logical operators
-        boolean x=true,y=false;
-        System.out.println("Logical And:"+ (x && y));
-        System.out.println("Logical OR:"+ (x || y));
-        System.out.println("Logical NOT:"+ (!x));
-        System.out.println((3<5) || (1/0 == 0)); // This will not throw exception as when the first condition is false the next would not be evaluated.
+        // Assignment Operators
+        int num = 20;
+        num += 10;  // num = num + 10
+        System.out.println("After += : " + num);            // 30
 
-        //Assignment operators
-        System.out.println("After +="+ (a+=b));
-        System.out.println("After *="+ (a*=b));
-
-        //Unary Operator
+        // Unary Operators
         int c = 5;
-        System.out.println(c++);
-        System.out.println(c);
-        System.out.println(c--);
-        System.out.println(c);
-        System.out.println(++c);
-        System.out.println(c );
-        System.out.println(--c);
-        System.out.println(c);
+        System.out.println("Unary minus: " + (-c));         // -5
+        System.out.println("Post-increment: " + (c++));     // 5 (then c becomes 6)
+        System.out.println("Pre-increment: " + (++c));      // 7
 
+        // Bitwise Operators
+        int p = 5, q = 3;
+        System.out.println("Bitwise AND: " + (p & q));      // 1
+        System.out.println("Bitwise OR: " + (p | q));       // 7
+        System.out.println("Bitwise XOR: " + (p ^ q));      // 6
+        System.out.println("Bitwise Complement of p: " + (~p)); // -6
 
+        // Ternary Operator
+        int max = (a > b) ? a : b;
+        System.out.println("Maximum using ternary: " + max); // 10
+
+        // Shift Operators
+        int shift = 8;
+        System.out.println("Left shift: " + (shift << 2));   // 32
+        System.out.println("Right shift: " + (shift >> 2));  // 2
     }
 }
