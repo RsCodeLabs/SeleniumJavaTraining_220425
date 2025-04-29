@@ -1,28 +1,33 @@
 package com.javapractice.variables;
 
 public class Teacher {
-        String name;
-        String subject;
-        int experience;
+    // Instance variables
+    String name;
+    String subject;
+    int experience;
 
-    public void main(String[] args) {
-        Teacher Teacher1 = new Teacher();
-        Teacher1.name = "Mr Sharma";
-        Teacher1.subject = "Math";
-        Teacher1.experience = 10;
+    public static void main(String[] args) {
+        // Creating three Teacher objects
+        Teacher teacher1 = new Teacher();
+        Teacher teacher2 = new Teacher();
+        Teacher teacher3 = new Teacher();
 
-        Teacher Teacher2 = new Teacher();
-        Teacher2.name = "Mrs Latha";
-        Teacher2.subject = "English";
-        Teacher2.experience = 8;
-        System.out.println("Name: "+Teacher1.name);
-        System.out.println("Subject: "+Teacher1.subject);
-        System.out.println("Experience: "+Teacher1.experience);
+        // Assigning values to each teacher
+        teacher1.name = "Mr. Sharma";
+        teacher1.subject = "Math";
+        teacher1.experience = 10;
 
-        System.out.println("Name: "+Teacher2.name);
-        System.out.println("Subject: "+Teacher2.subject);
-        System.out.println("Experience: "+Teacher2.experience);
+        teacher2.name = "Ms. Latha";
+        teacher2.subject = "English";
+        teacher2.experience = 8;
+
+        teacher3.name = "Mrs. John";
+        teacher3.subject = "Science";
+        teacher3.experience = 12;
+
+        // Printing the details of each teacher
+        System.out.println("Name: " + teacher1.name + ", Subject: " + teacher1.subject + ", Experience: " + teacher1.experience + " years");
+        System.out.println("Name: " + teacher2.name + ", Subject: " + teacher2.subject + ", Experience: " + teacher2.experience + " years");
+        System.out.println("Name: " + teacher3.name + ", Subject: " + teacher3.subject + ", Experience: " + teacher3.experience + " years");
     }
-
 }
-
