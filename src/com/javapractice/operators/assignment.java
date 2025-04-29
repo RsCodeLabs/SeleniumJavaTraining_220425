@@ -11,20 +11,26 @@ public class assignment {
 //       # ( Clue : n%2==0 is even, n%2==1 is odd
 //       # 2.Find sum of 100  numbers (Clue : loop i till 100 using for loop , make sum += i and print sum)
 
-        String num = System.input("Enter a number: ");
-        Scanner sc = new Scanner(in)
-        if(n%2==0){
+        out.println("Enter input");
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        if(n%2==0) {
             out.println("Even number");
-        elif(n%2==1);
+        }
+        else {
             out.println("Odd number");
         }
 
+        out.println("Enter input for sum: ");
+        int sumOfNumbers = sc.nextInt();
+
         int sum = 0;
-        for(int i=0; i>100; i++){
+        for(int i=1; i<=sumOfNumbers; i++){
             sum = sum + i;
-            out.println("i value"+ (sum+i) );
+
 
         }
+        out.println("Value of suum: "+ (sum) );
 
 
     }
