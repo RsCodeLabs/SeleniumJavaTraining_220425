@@ -6,6 +6,7 @@ public class ArrayExample {
      //   int[] numbers;
    /*     int numbers[];
 
+
         // Initializing an array with size
         numbers = new int[5]; // Stores 5 integers
 
