@@ -11,26 +11,46 @@ public class assignment {
 //       # ( Clue : n%2==0 is even, n%2==1 is odd
 //       # 2.Find sum of 100  numbers (Clue : loop i till 100 using for loop , make sum += i and print sum)
 
-        out.println("Enter input");
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        if(n%2==0) {
-            out.println("Even number");
+
+
+        for(int n=0;n<=100;n++)
+        {
+            if(n%2==0){
+                out.println("Even number: "+n);
+            }
         }
-        else {
-            out.println("Odd number");
+
+
+
+        int tsum =0;
+        for(int j=0;j<=100;j++)
+        {
+            tsum+=j;
         }
-
-        out.println("Enter input for sum: ");
-        int sumOfNumbers = sc.nextInt();
-
-        int sum = 0;
-        for(int i=1; i<=sumOfNumbers; i++){
-            sum = sum + i;
+        out.println("sum of all the numbers: "+tsum);
 
 
-        }
-        out.println("Value of suum: "+ (sum) );
+
+//        out.println("Enter input");
+//        Scanner sc = new Scanner(System.in);
+//        int n = sc.nextInt();
+//        if(n%2==0) {
+//            out.println("Even number");
+//        }
+//        else {
+//            out.println("Odd number");
+//        }
+//
+//        out.println("Enter input for sum: ");
+//        int sumOfNumbers = sc.nextInt();
+//
+//        int sum = 0;
+//        for(int i=1; i<=sumOfNumbers; i++){
+//            sum = sum + i;
+//
+//
+//        }
+//        out.println("Value of sum: "+ (sum) );
 
 
     }
