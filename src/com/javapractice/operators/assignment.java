@@ -1,9 +1,6 @@
 package com.javapractice.operators;
 
-
 import java.util.Scanner;
-
-import static java.lang.System.*;
 
 public class assignment {
     public static void main(String[] args) {
@@ -16,7 +13,7 @@ public class assignment {
         for(int n=0;n<=100;n++)
         {
             if(n%2==0){
-                out.println("Even number: "+n);
+                System.out.println("Even number: "+n);
             }
         }
 
@@ -27,30 +24,30 @@ public class assignment {
         {
             tsum+=j;
         }
-        out.println("sum of all the numbers: "+tsum);
+        System.out.println("sum of all the numbers: "+tsum);
 
 
 
-//        out.println("Enter input");
-//        Scanner sc = new Scanner(System.in);
-//        int n = sc.nextInt();
-//        if(n%2==0) {
-//            out.println("Even number");
-//        }
-//        else {
-//            out.println("Odd number");
-//        }
-//
-//        out.println("Enter input for sum: ");
-//        int sumOfNumbers = sc.nextInt();
-//
-//        int sum = 0;
-//        for(int i=1; i<=sumOfNumbers; i++){
-//            sum = sum + i;
-//
-//
-//        }
-//        out.println("Value of sum: "+ (sum) );
+        System.out.println("Enter input");
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        if(n%2==0) {
+            System.out.println("Even number");
+        }
+        else {
+            System.out.println("Odd number");
+        }
+
+        System.out.println("Enter input for sum: ");
+        int sumOfNumbers = sc.nextInt();
+
+        int sum = 0;
+        for(int i=1; i<=sumOfNumbers; i++){
+            sum = sum + i;
+
+
+        }
+        System.out.println("Value of sum: "+ (sum) );
 
 
     }
