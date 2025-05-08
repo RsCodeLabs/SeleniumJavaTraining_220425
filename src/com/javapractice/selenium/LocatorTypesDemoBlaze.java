@@ -43,7 +43,7 @@ public class LocatorTypesDemoBlaze {
             Thread.sleep(1000);
 
             // Step 7: Use 'cssSelector' locator to click "Add to cart"
-            WebElement addToCart = driver.findElement(By.cssSelector("a.btn.btn-success.btn-lg"));
+            WebElement addToCart = driver.findElement(By.cssSelector("a[class='btn btn-success btn-lg']"));
             addToCart.click();
             Thread.sleep(1000);
 
