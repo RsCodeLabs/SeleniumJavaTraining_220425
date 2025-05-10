@@ -92,21 +92,24 @@ public class May6Assignment {
         Thread.sleep(2000);
 
 //
-*/
+
 //13. Use preceding:: to locate an element before the search input.
         WebElement B4searchInput = driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']/preceding::div[1]"));
         System.out.println("Element Before SEARCH input field:  " +B4searchInput.getText());
+        //ABLE TO GET THE RIGHT OUTPUT BUT GETTING BELOW ERROR :
+        // Exception in thread "main" org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="nav-search-facade" data-value="search-alias=aps">...</div> is not clickable at point (377, 29). Other element would receive the click: <select aria-describedby="searchDropdownDescription" class="nav-search-dropdown searchSelect nav-progressive-attrubute nav-progressive-search-dropdown" data-nav-digest="bWVcD3YlJR7bl7mJRxk8QgeiLoU=" data-nav-selected="0" id="searchDropdownBox" name="url" style="display: block; top: 2.5px;" tabindex="0" title="Search in">...</select>
         B4searchInput.click();
         Thread.sleep(5000);
-/*
+*/
 
 //
 //14. Use following-sibling:: to locate the sibling element after “Mobiles” link.
-        WebElement followingSiblingOfMobileLink = driver.findElement(By.xpath("//a[text()='Mobiles']/../../following-sibling::li//a"));
+        WebElement followingSiblingOfMobileLink = driver.findElement(By.xpath("//a[text()='Mobiles']/../../following-sibling::li[1]//a"));
         System.out.println("Following Sibling element after MOBILES:  " +followingSiblingOfMobileLink.getText());
         followingSiblingOfMobileLink.click();
 
 //
+         /*
 //15. Use preceding-sibling:: to locate the element before the “Electronics” link.
         WebElement PrecedingSiblingOfElectronics = driver.findElement(By.xpath("//a[text()=' Electronics ']/../../preceding-sibling::li//div/a"));
         PrecedingSiblingOfElectronics.click();
