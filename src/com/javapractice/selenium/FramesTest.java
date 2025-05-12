@@ -26,6 +26,7 @@ public class FramesTest {
         //Switch to frame using name or id
         driver.switchTo().frame("iframeResult");
         System.out.println("Switched to frame using name");
+      //  driver.findElement(By.xpath("//*[@id='subtopnav']/a[1]")).click();
         driver.switchTo().defaultContent();
         runButton.click();
 
