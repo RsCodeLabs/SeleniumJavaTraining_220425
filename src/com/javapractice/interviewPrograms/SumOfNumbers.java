@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class SumOfNumbers {
     public static void main(String[] args) {
+
         System.out.println("Enter a number to calculate Sum: ");
         Scanner scan = new Scanner(System.in);
         int number = scan.nextInt();
