@@ -1,15 +1,15 @@
 package com.javapractice.PratikAssignments.Java;
 
-public class Book {
+public class Assignment9Book {
     String title;
     String author;
 
-    public Book()
+    public Assignment9Book()
     {
         System.out.println("Default Book Created");
     }
 
-    public Book(String title, String author)
+    public Assignment9Book(String title, String author)
     {
         this.title = title;
         this.author = author;
@@ -22,8 +22,8 @@ public class Book {
     }
 
     public static void main(String[] args) {
-        Book b1 = new Book();
-        Book b2 = new Book("Java", "John");
+        Assignment9Book b1 = new Assignment9Book();
+        Assignment9Book b2 = new Assignment9Book("Java", "John");
         b1.bookDetails("Python", "Sena");
     }
 }

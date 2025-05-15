@@ -1,6 +1,6 @@
 package com.javapractice.PratikAssignments.Java;
 
-public class UserDefinedMethodsEx {
+public class Assignment7UserDefinedMethodsEx {
     public static void printMsg()
     {
         System.out.println("Hello!");
@@ -23,7 +23,7 @@ public class UserDefinedMethodsEx {
 
 
     public static void main(String[] args) {
-        UserDefinedMethodsEx obj = new UserDefinedMethodsEx();
+        Assignment7UserDefinedMethodsEx obj = new Assignment7UserDefinedMethodsEx();
         printMsg();
         System.out.println(printName("Selenium"));
         obj.printMsg1();

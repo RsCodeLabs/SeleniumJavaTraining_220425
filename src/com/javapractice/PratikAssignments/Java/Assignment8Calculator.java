@@ -1,6 +1,6 @@
 package com.javapractice.PratikAssignments.Java;
 
-public class Calculator {
+public class Assignment8Calculator {
     public int add(int a, int b)
     {
         return a + b;
@@ -23,7 +23,7 @@ public class Calculator {
     }
 
     public static void main(String[] args) {
-        Calculator calculator = new Calculator();
+        Assignment8Calculator calculator = new Assignment8Calculator();
         int sum = calculator.add(10, 3);
         int diff = calculator.subtract(10, 4);
 
