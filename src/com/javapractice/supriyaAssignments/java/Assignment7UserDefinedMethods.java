@@ -1,4 +1,4 @@
-package com.javapractice.assignmentsAfterClass;
+package com.javapractice.supriyaAssignments.java;
 /*
 🔰 Sample Output:
 Static Method without params called
@@ -7,7 +7,17 @@ Non-Static Method without params called
 Non-Static Method with params: Hello, John!
 */
 
-public class UserDefinedMethods {
+public class
+
+
+
+
+
+
+
+
+
+Assignment7UserDefinedMethods {
 //One static method without parameters
     public static void display1() {
     System.out.println("Static Method without params called");
@@ -30,7 +40,7 @@ public void display3(String s) {
         //No need to create an object for Static method
         display1();
         add(25,5);
-        UserDefinedMethods obj= new UserDefinedMethods();
+        Assignment7UserDefinedMethods obj= new Assignment7UserDefinedMethods();
         obj.display2();
         obj.display3("Hello, John!");
     }

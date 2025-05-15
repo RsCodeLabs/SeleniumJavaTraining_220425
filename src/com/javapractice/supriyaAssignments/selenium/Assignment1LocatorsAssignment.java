@@ -1,4 +1,4 @@
-package com.javapractice.assignmentsAfterClass;
+package com.javapractice.supriyaAssignments.selenium;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -34,7 +34,7 @@ Steps to Follow:
 Expected Output:
 Script should perform all steps and land on the cart page successfull*/
 
-public class LocatorsAssignment {
+public class Assignment1LocatorsAssignment {
 
     public static void main(String[] args) throws InterruptedException{
 

@@ -1,4 +1,4 @@
-package com.javapractice.assignmentsAfterClass;
+package com.javapractice.supriyaAssignments.selenium;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -57,7 +57,7 @@ Perform an action: click, send keys, or print text.
 🔸 Use last() to click the last item in the nav-xshop navigation list.
 
 * */
-public class XpathAssignment {
+public class Assignment2XpathAssignment {
     public static void main(String[] args) throws InterruptedException {
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.amazon.in/");

@@ -1,6 +1,6 @@
-package com.javapractice.assignmentsAfterClass;
+package com.javapractice.supriyaAssignments.java;
 
-public class TeacherDetails {
+public class Assignment2TeacherDetails {
 
         String name;
         String subject;
@@ -8,9 +8,9 @@ public class TeacherDetails {
 
     public static void main(String[] args) {
         //Object creation
-        TeacherDetails teacher1 =new TeacherDetails();
-        TeacherDetails teacher2 =new TeacherDetails();
-        TeacherDetails teacher3 =new TeacherDetails();
+        Assignment2TeacherDetails teacher1 =new Assignment2TeacherDetails();
+        Assignment2TeacherDetails teacher2 =new Assignment2TeacherDetails();
+        Assignment2TeacherDetails teacher3 =new Assignment2TeacherDetails();
 
         //Initialization of the values
         teacher1.name = "Supriya";

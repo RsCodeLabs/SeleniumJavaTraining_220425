@@ -1,4 +1,4 @@
-package com.javapractice.assignmentsAfterClass;
+package com.javapractice.supriyaAssignments.java;
 
 /*
     Assignment 3 : Write a Java class Book that includes:
@@ -11,9 +11,9 @@ Default Book Created
 Book Title: Java Basics, Author:John Doe
 */
 
-    public class Book {
+    public class Assignment9Book {
 
-        Book() {        // Default Constructor is called when ever a object is created
+        Assignment9Book() {        // Default Constructor is called when ever a object is created
             System.out.println("Default Book Created");
         }
         public void Book(String a, String b) {        // Parameterised Constructor
@@ -28,7 +28,7 @@ Book Title: Java Basics, Author:John Doe
 
 
         public static void main(String[] args) {
-            Book obj = new Book(); // Constructor gets called automatically
+            Assignment9Book obj = new Assignment9Book(); // Constructor gets called automatically
             obj.Book("HARRY POTTER", "JK Rowling");
             obj.display("RICH DAD POOR DAD", "Robert Kiyosaki");
         }
