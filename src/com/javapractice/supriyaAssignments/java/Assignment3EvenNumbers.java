@@ -1,8 +1,6 @@
-package com.javapractice.assignmentsAfterClass;
+package com.javapractice.supriyaAssignments.java;
 
-import java.lang.reflect.GenericDeclaration;
-
-public class EvenNumbers {
+public class Assignment3EvenNumbers {
     public static void main(String[] args) {
         int n = 100;
         System.out.println("Even numbers from 1 to " +n +":");

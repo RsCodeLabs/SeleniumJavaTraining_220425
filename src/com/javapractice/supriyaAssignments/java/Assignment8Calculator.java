@@ -1,4 +1,4 @@
-package com.javapractice.assignmentsAfterClass;
+package com.javapractice.supriyaAssignments.java;
  /*
     Include:
     •   Method to add two numbers (with parameters)
@@ -6,7 +6,7 @@ package com.javapractice.assignmentsAfterClass;
     •   Method to print a welcome message (no parameters)
     •   Method to show developer info (static, no parameters)
      */
-public class Calculator {
+public class Assignment8Calculator {
     public int addNum(int a,int b) {
         //System.out.println("Sum of numbers "+ a + " and " + b + "  is :  " + (a+b));
         return (a+b);
@@ -23,12 +23,12 @@ public class Calculator {
     }
 
 public static void main(String[] args) {
-    Calculator calObj1 = new Calculator();
+    Assignment8Calculator calObj1 = new Assignment8Calculator();
     int c = calObj1.addNum(12,13);
     System.out.println("Sum of numbers is :  " + (c));
     int c1 = calObj1.subNum(30,10);
     System.out.println("Substraction of numbers is : " + (c1));
     calObj1.print();
-    Calculator.devInfo();
+    Assignment8Calculator.devInfo();
 }
 }
