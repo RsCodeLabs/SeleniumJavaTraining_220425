@@ -2,16 +2,25 @@ package com.javapractice.Selenium;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.chromium.ChromiumDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class amazon {
     public static void main(String[] args) {
+
+//        WebDriver driver = new FirefoxDriver();
+//        WebDriver driver = new ChromiumDriver();
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.amazon.in/");
+        driver.manage().window().maximize();
 
         //find amazon logo
         //<i class="a-icon a-logo"></i>
-        driver.findElement(By.className("a-icon a-logo"));
+        WebElement a_icon = driver.findElement(By.className("a-icon a-logo"));
+        System.out.println("a_icon :  " +a_icon.isDisplayed());
 
         //XPath to locate the search bar
         ////*[@id="nav-search-bar-form"]
@@ -45,12 +54,16 @@ public class amazon {
  //        driver.findElement(By.xpath("//div[@id='nav-main']/"))
         driver.findElement(By.xpath("//div[@id='nav-main']/descendant::span[text()='Fresh']"));
 
-
         //🔸 Use following:: to locate and print the next element after “Hello, sign in”.
+        //<span id="nav-link-accountList-nav-line-1" class="nav-line-1 nav-progressive-content">Hello, sign in</span>
+        WebElement helloSignIn = driver.findElement(By.xpath("//span[normalize-space(text())='Hello, sign in']"));
+        System.out.println("Message:  " +helloSignIn.getText());
+
+        driver.findElement(By.xpath("//div[@class='nav-line-1-container']/following-sibling::span"));
 
         //🔸 Use preceding:: to locate an element before the search input.
-        //
-        //🔸 Use following-sibling:: to locate the sibling element after “Mobiles” link.
+
+        //🔸 Use following-sibling:: to locate the sibling element after “Mobiles” link.//span[normalize-space(text())='Hello, sign in']
         //
         //🔸 Use preceding-sibling:: to locate the element before the “Electronics” link.
         //

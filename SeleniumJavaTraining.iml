@@ -10,14 +10,14 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/../../selenium-java-4.29.0" />
+          <root url="file://$USER_HOME$/Downloads/selenium-java-4.31.0" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$MODULE_DIR$/../../selenium-java-4.29.0" />
+          <root url="file://$USER_HOME$/Downloads/selenium-java-4.31.0" />
         </SOURCES>
-        <jarDirectory url="file://$MODULE_DIR$/../../selenium-java-4.29.0" recursive="false" />
-        <jarDirectory url="file://$MODULE_DIR$/../../selenium-java-4.29.0" recursive="false" type="SOURCES" />
+        <jarDirectory url="file://$USER_HOME$/Downloads/selenium-java-4.31.0" recursive="false" />
+        <jarDirectory url="file://$USER_HOME$/Downloads/selenium-java-4.31.0" recursive="false" type="SOURCES" />
       </library>
     </orderEntry>
   </component>

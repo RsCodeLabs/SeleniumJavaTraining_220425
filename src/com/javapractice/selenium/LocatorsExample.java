@@ -1,4 +1,4 @@
-package com.javapractice.selenium;
+package com.javapractice.Selenium;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
@@ -7,7 +7,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.util.HashMap;
-
 public class LocatorsExample {
     public static void main(String[] args) {
         ChromeOptions options = new ChromeOptions();
