@@ -23,7 +23,7 @@ public class Assignment9Book {
 
     public static void main(String[] args) {
         Assignment9Book b1 = new Assignment9Book();
-        Assignment9Book b2 = new Assignment9Book("Java", "John");
+        new Assignment9Book("Java", "John");
         b1.bookDetails("Python", "Sena");
     }
 }
