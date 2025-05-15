@@ -24,8 +24,8 @@ public class Calculator {
 
 public static void main(String[] args) {
     Calculator calObj1 = new Calculator();
-    int c = calObj1.addNum(12,13);
-    int c1 = calObj1.subNum(30,10);
+    calObj1.addNum(12,13);
+    calObj1.subNum(30,10);
     calObj1.print();
     Calculator.devInfo();
 }
