@@ -30,8 +30,19 @@ public class PrimeNumberCheck {
                 }
 
 
+main(
+                new int[]{1, 2, 3, 4, 5}
+        );
 
 
 
+
+    }
+
+    public static void main(int[] args){
+        System.out.println("This is the main method with int[] args");
+        for (int arg : args) {
+            System.out.println(arg);
+        }
     }
 }
