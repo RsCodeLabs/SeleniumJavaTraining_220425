@@ -1,3 +1,14 @@
+/*
+    Assignment 9 : Write a Java class Book that includes:
+•   A default constructor that prints "Default Book Created"
+•   A parameterized constructor that accepts title and author
+•   A method display() to print book details
+________________________________________
+🔰 Expected Output:
+Default Book Created
+Book Title: Java Basics, Author:John Doe
+*/
+
 package com.javapractice.PratikAssignments.Java;
 
 public class Assignment9Book {

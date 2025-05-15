@@ -1,3 +1,11 @@
+/*
+🔰 Sample Output:
+Static Method without params called
+Static Method with params: Sum is 30
+Non-Static Method without params called
+Non-Static Method with params: Hello, John!
+*/
+
 package com.javapractice.PratikAssignments.Java;
 
 public class Assignment7UserDefinedMethodsEx {
