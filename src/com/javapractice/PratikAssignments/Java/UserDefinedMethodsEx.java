@@ -1,4 +1,4 @@
-package com.javapractice.Assignments;
+package com.javapractice.PratikAssignments.Java;
 
 public class UserDefinedMethodsEx {
     public static void printMsg()

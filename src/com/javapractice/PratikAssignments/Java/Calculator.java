@@ -1,4 +1,4 @@
-package com.javapractice.Assignments;
+package com.javapractice.PratikAssignments.Java;
 
 public class Calculator {
     public int add(int a, int b)
