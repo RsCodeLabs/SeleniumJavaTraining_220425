@@ -1,12 +1,12 @@
 package com.javapractice.OOPS;
 
-public class Book {
+public class myBook {
         String title="Default Book Title";
         String author ="Default Author";
-        public Book(){
+        public myBook(){
             System.out.println("Default Book Created");
         }
-        public Book(String title, String author){
+        public myBook(String title, String author){
             System.out.println("Title : "+title+" Author : "+ author);
         }
         public void display(){
@@ -14,9 +14,9 @@ public class Book {
         }
 
     public static void main(String[] args) {
-        Book book1 = new Book();
-        book1.display();
-        Book book2 = new Book("Java Basics","John Doe" );
+        myBook myBook1 = new myBook();
+        myBook1.display();
+        myBook myBook2 = new myBook("Java Basics","John Doe" );
 
 
 

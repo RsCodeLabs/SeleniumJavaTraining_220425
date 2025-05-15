@@ -1,6 +1,6 @@
 package com.javapractice.OOPS;
 
-public class Assignment1 {
+public class myAssignment1 {
     public static void staticDisplayWithParameter(){
         System.out.println("One static method without parameters\n");
     }
@@ -22,9 +22,10 @@ public class Assignment1 {
     public static void main(String[] args) {
         staticDisplayWithParameter();
         staticDisplayWithParameter(1,2);
-        Assignment1 obj = new Assignment1();
+        myAssignment1 obj = new myAssignment1();
         obj.nonStaticDisplayWithOutParameter();
         obj.nonStaticDisplayWithParameter(3,7);
+        new myAssignment1().nonStaticDisplayWithOutParameter();
 
     }
 }

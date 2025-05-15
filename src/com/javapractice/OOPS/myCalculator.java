@@ -1,6 +1,6 @@
 package com.javapractice.OOPS;
 
-public class Calculator {
+public class myCalculator {
     public void add(int a, int b){
         System.out.println("Method to add two numbers (with parameters) : "+a+b);
     }
@@ -17,10 +17,12 @@ public class Calculator {
     }
 
     public static void main(String[] args) {
-        Calculator cal = new Calculator();
+        myCalculator cal = new myCalculator();
         cal.add(2,3);
         cal.substract(10,6);
         cal.welcome();
+        new myCalculator().welcome();
+
         developerInformation();
     }
 
