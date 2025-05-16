@@ -10,9 +10,9 @@ public class StudentParameterizedConstructor {
     }
 
     // Parameterized Constructor
-    public StudentParameterizedConstructor(String n, int a) {
-        name = n;
-        age = a;
+    public StudentParameterizedConstructor(String name, int age) {
+       this.name = name; //Assigning the value of name to the instance variable of the class(this.name)
+        this.age = age;
     }
 
     StudentDefaultConstructor s = new StudentDefaultConstructor();
