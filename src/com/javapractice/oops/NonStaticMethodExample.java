@@ -1,4 +1,4 @@
-package com.javapractice.oops;
+package com.javapractice.OOPS;
 
 public class NonStaticMethodExample {
     public void greet() {
@@ -9,8 +9,8 @@ public class NonStaticMethodExample {
 
         NonStaticMethodExample example = new NonStaticMethodExample();
         example.greet(); // Calling the non-static method using the object
-        StaticMethodExample.greet();
-        StaticMethodExample.display();
+        com.javapractice.oops.StaticMethodExample.greet();
+        com.javapractice.oops.StaticMethodExample.display();
 
     }
 }
