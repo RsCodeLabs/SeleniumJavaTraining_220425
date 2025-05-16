@@ -1,4 +1,4 @@
-package com.javapractice.OOPS.encapsulation;
+package com.javapractice.oops.encapsulation;
 
 public class PenEncapsulationEx {
 
