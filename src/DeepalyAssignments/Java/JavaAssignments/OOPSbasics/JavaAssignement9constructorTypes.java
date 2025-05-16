@@ -1,12 +1,12 @@
-package com.javapractice.OOPS;
+package DeepalyAssignments.Java.JavaAssignments.OOPSbasics;
 
-public class myBook {
+public class JavaAssignement9constructorTypes {
         String title="Default Book Title";
         String author ="Default Author";
-        public myBook(){
+        public JavaAssignement9constructorTypes(){
             System.out.println("Default Book Created");
         }
-        public myBook(String title, String author){
+        public JavaAssignement9constructorTypes(String title, String author){
             System.out.println("Title : "+title+" Author : "+ author);
         }
         public void display(){
@@ -14,9 +14,9 @@ public class myBook {
         }
 
     public static void main(String[] args) {
-        myBook myBook1 = new myBook();
+        JavaAssignement9constructorTypes myBook1 = new JavaAssignement9constructorTypes();
         myBook1.display();
-        myBook myBook2 = new myBook("Java Basics","John Doe" );
+        JavaAssignement9constructorTypes myBook2 = new JavaAssignement9constructorTypes("Java Basics","John Doe" );
 
 
 

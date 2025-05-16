@@ -1,6 +1,6 @@
-package com.javapractice.OOPS;
+package DeepalyAssignments.Java.JavaAssignments.OOPSbasics;
 
-public class myCalculator {
+public class JavaAssignement8ParamterizedConst {
     public void add(int a, int b){
         System.out.println("Method to add two numbers (with parameters) : "+a+b);
     }
@@ -17,11 +17,11 @@ public class myCalculator {
     }
 
     public static void main(String[] args) {
-        myCalculator cal = new myCalculator();
+        JavaAssignement8ParamterizedConst cal = new JavaAssignement8ParamterizedConst();
         cal.add(2,3);
         cal.substract(10,6);
         cal.welcome();
-        new myCalculator().welcome();
+        new JavaAssignement8ParamterizedConst().welcome();
 
         developerInformation();
     }

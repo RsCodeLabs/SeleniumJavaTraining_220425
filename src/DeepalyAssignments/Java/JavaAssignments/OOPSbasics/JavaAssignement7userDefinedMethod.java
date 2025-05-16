@@ -1,6 +1,6 @@
-package com.javapractice.OOPS;
+package DeepalyAssignments.Java.JavaAssignments.OOPSbasics;
 
-public class myAssignment1 {
+public class JavaAssignement7userDefinedMethod {
     public static void staticDisplayWithParameter(){
         System.out.println("One static method without parameters\n");
     }
@@ -22,10 +22,10 @@ public class myAssignment1 {
     public static void main(String[] args) {
         staticDisplayWithParameter();
         staticDisplayWithParameter(1,2);
-        myAssignment1 obj = new myAssignment1();
+        JavaAssignement7userDefinedMethod obj = new JavaAssignement7userDefinedMethod();
         obj.nonStaticDisplayWithOutParameter();
         obj.nonStaticDisplayWithParameter(3,7);
-        new myAssignment1().nonStaticDisplayWithOutParameter();
+        new JavaAssignement7userDefinedMethod().nonStaticDisplayWithOutParameter();
 
     }
 }
