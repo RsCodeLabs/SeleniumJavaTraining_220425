@@ -17,6 +17,7 @@ public class JavaAssignement9constructorTypes {
         JavaAssignement9constructorTypes myBook1 = new JavaAssignement9constructorTypes();
         myBook1.display();
         JavaAssignement9constructorTypes myBook2 = new JavaAssignement9constructorTypes("Java Basics","John Doe" );
+        myBook2.display();
 
 
 

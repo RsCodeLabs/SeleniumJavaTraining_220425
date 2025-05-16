@@ -3,7 +3,6 @@
  * Java Assignment 10:
  * Title: Student Details Management
  * Objective: Use private fields and public getters/setters to control access to data.
- *
  * 🔧 Requirements:
  * Create a class Student with private fields:
  * name (String)
@@ -13,7 +12,6 @@
  * Create an object of Student
  * Set name and age
  * Print the values using getter methods
- *
  * ✅ Expected Output:
  * Student Name: John
  * Student Age: 20

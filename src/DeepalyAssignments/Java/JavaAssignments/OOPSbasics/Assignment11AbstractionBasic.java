@@ -21,7 +21,7 @@ public abstract class Assignment11AbstractionBasic {
 
     abstract void makeSound();
     void display(){
-        System.out.println("This is display method");
+        System.out.println("I am animal");
     }
 }
 
@@ -45,8 +45,10 @@ class Cat extends Assignment11AbstractionBasic{
     public static void main(String[] args) {
         Dog dog = new Dog();
         dog.makeSound();
+        dog.display();
         Cat cat = new Cat();
         cat.makeSound();
+        cat.display();
     }
 }
 
