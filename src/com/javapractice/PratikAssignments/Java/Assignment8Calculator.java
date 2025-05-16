@@ -1,3 +1,5 @@
+package com.javapractice.PratikAssignments.Java;
+
 /*
    Include:
    •   Method to add two numbers (with parameters)
@@ -5,8 +7,6 @@
    •   Method to print a welcome message (no parameters)
    •   Method to show developer info (static, no parameters)
     */
-
-package com.javapractice.PratikAssignments.Java;
 
 public class Assignment8Calculator {
     public int add(int a, int b)

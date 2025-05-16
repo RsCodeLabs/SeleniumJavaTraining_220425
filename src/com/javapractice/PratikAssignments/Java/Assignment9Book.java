@@ -1,3 +1,5 @@
+package com.javapractice.PratikAssignments.Java;
+
 /*
     Assignment 9 : Write a Java class Book that includes:
 •   A default constructor that prints "Default Book Created"
@@ -8,8 +10,6 @@ ________________________________________
 Default Book Created
 Book Title: Java Basics, Author:John Doe
 */
-
-package com.javapractice.PratikAssignments.Java;
 
 public class Assignment9Book {
     String title;
