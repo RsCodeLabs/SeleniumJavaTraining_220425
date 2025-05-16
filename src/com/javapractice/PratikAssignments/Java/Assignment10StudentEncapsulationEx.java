@@ -1,6 +1,6 @@
 package com.javapractice.PratikAssignments.Java;
 
-public class Assignment10EncapsulationEx {
+public class Assignment10StudentEncapsulationEx {
     private String name;
     private int age;
 
@@ -21,7 +21,7 @@ public class Assignment10EncapsulationEx {
     }
 
     public static void main(String[] args) {
-        Assignment10EncapsulationEx obj = new Assignment10EncapsulationEx();
+        Assignment10StudentEncapsulationEx obj = new Assignment10StudentEncapsulationEx();
         obj.setName("John");
         obj.setAge(20);
         System.out.println("Student Name: " + obj.getName());
