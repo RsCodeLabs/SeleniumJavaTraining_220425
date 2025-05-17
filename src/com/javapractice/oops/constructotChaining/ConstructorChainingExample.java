@@ -7,6 +7,10 @@ class Animal{
      }
 
 
+
+
+
+
     Animal(String type){
         System.out.println("Animal type: " + type);
     }
