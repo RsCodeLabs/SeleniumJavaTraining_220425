@@ -4,6 +4,7 @@ final class Parent2 {
     int age;
      void show() {
         System.out.println("Parent class method");
+
     }
 }
 
