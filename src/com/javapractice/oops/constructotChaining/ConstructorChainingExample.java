@@ -11,6 +11,8 @@ class Animal{
         System.out.println("Animal type: " + type);
     }
 
+
+
 }
 
 class Dog extends Animal{
