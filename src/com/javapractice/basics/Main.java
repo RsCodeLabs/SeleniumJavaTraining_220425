@@ -1,8 +1,11 @@
 package com.javapractice.basics;
 
+import com.javapractice.Arrays.ArrayExample;
+
 public class Main {
 
     public static void main(String[] args) {
+
         String name= "RSCodeLabs";
             int age = 25;
             int[] scores = {85, 90, 78, 92, 88};

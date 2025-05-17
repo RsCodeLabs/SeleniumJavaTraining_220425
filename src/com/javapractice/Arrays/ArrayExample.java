@@ -2,6 +2,7 @@ package com.javapractice.Arrays;
 
 public class ArrayExample {
     public static void main(String[] args) {
+
         // Declaring an array
      //   int[] numbers;
    /*     int numbers[];

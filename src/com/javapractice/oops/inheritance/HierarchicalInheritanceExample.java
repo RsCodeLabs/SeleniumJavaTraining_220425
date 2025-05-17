@@ -1,5 +1,8 @@
 package com.javapractice.oops.inheritance;
 
+
+import java.util.ArrayList;
+
 class Cat extends Animal {
     void meow() {
         System.out.println("Cat meows.");
@@ -8,6 +11,7 @@ class Cat extends Animal {
 
 
 public class HierarchicalInheritanceExample {
+
     public static void main(String[] args) {
      Dog dog = new com.javapractice.oops.inheritance.Dog();
         dog.eat();

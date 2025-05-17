@@ -1,5 +1,6 @@
 package com.javapractice.selenium;
 
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -11,7 +12,7 @@ public class BrowserNavigationAndGetMethodsExample {
         driver.manage().window().maximize();
         driver.navigate().to("https://demowebshop.tricentis.com/");
         driver.navigate().to("https://demowebshop.tricentis.com/login");
-        WebElement loginText = driver.findElement(By.xpath("//Strong[text()='New Customer']/../following-sibling::div[@class='text']"));
+        WebElement loginText = driver.findElement(org.openqa.selenium.By.xpath("//Strong[text()='New Customer']/../following-sibling::div[@class='text']"));
         ////Strong[text()='New Customer']/../following-sibling::div[@class='text']
         String description = loginText.getText();
         System.out.println("Login Text: " + description);
