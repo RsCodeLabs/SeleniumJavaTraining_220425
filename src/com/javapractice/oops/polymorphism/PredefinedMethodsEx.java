@@ -1,4 +1,4 @@
-package com.javapractice.oops;
+package com.javapractice.oops.polymorphism;
 
 public class PredefinedMethodsEx {
     public static void main(String[] args) {
