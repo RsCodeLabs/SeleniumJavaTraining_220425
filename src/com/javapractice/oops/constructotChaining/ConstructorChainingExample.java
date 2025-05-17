@@ -5,6 +5,8 @@ class Animal{
      Animal(){
          System.out.println("Default Animal constructor called");
      }
+
+
     Animal(String type){
         System.out.println("Animal type: " + type);
     }
