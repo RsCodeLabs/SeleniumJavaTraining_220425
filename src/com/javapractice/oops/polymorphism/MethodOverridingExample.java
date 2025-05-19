@@ -1,9 +1,12 @@
 package com.javapractice.oops.polymorphism;
 
 
+
+
 class Parent5 {
 
     void profession(int year) {
+
         System.out.println("Become A Doctor by"+ year);
     }
 

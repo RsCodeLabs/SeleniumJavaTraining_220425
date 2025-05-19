@@ -1,4 +1,4 @@
-package com.javapractice.oops;
+package com.javapractice.oops.constructotChaining;
 
 //Example: Parameterized Constructor:
 public class StudentParameterizedConstructor {

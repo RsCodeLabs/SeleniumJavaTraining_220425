@@ -1,4 +1,4 @@
-package com.javapractice.oops;
+package com.javapractice.oops.constructotChaining;
 
 public class StudentDefaultConstructor {
 
