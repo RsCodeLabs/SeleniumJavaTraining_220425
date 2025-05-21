@@ -30,7 +30,7 @@ public class Assignment23Collections {
         ToDoList.add("Finish Java assignment");
         ToDoList.add("Call the doctor");
 
-        System.out.println("Initial Task List" +ToDoList);
+        System.out.println("Original Tasks: \n" +ToDoList);
         int IndexX= ToDoList.indexOf("Pay electricity bill");
         ToDoList.set(IndexX,"Pay internet bill");
         System.out.println("After update of Pay electricity bill to Pay internet bill");
@@ -41,20 +41,29 @@ public class Assignment23Collections {
         boolean IsTrue = ToDoList.contains("Finish Java assignment");
         if (IsTrue)
         {
-            System.out.println("Finish Java assignment still exists in the list");
+            System.out.println("Is 'Finish Java assignment' in the list? true");
         }
         else
         {
-            System.out.println("Finish Java assignment does not exists in the list");
+            System.out.println("Is 'Finish Java assignment' in the list? false");
         }
         int NumTasks = ToDoList.size();
-        System.out.println("Total number of task currently are :" +NumTasks);
+        System.out.println("Total tasks : " +NumTasks);
 
         int IndexDr= ToDoList.indexOf("Call the doctor");
-        System.out.println("Index of the task : Call the doctor is = " +IndexDr);
+        System.out.println("Index of 'Call the doctor' is = " +IndexDr);
 
         ToDoList.clear();
-        System.out.println("List after removal of all the elements is: " +ToDoList);
+        System.out.println("After clearing, tasks: " +ToDoList);
+        boolean IsEmpty = ToDoList.isEmpty();
+        if (IsEmpty)
+        {
+            System.out.println("Is list empty? : true");
+        }
+        else
+        {
+            System.out.println("Is list empty? : false");
+        }
     }
 
 }
