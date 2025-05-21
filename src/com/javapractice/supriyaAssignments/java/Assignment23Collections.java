@@ -19,10 +19,7 @@ Clear the entire task list using clear().
 Show that the list is empty.
  */
 
-import javax.sound.midi.Soundbank;
 import java.util.ArrayList;
-import java.util.TooManyListenersException;
-import java.util.function.ToDoubleBiFunction;
 
 public class Assignment23Collections {
     public static void main(String[] args) {
