@@ -19,9 +19,8 @@ public class Assignment20WrapperClasses {
             Sum = Sum + int1;
             Average = Sum/(i+1);
         }
-        System.out.println("Sum of the elements " + Sum);
-        System.out.println("Average of the elements " + Average);
-
+        System.out.println("Sum of the elements is: " + Sum);
+        System.out.println("Average of the elements is: " + Average);
     }
 }
 
