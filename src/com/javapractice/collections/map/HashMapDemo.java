@@ -18,6 +18,7 @@ public class HashMapDemo {
         // 2 -> Apple
         // 3 -> Mango
         // 4 -> Grapes
+        //5 -> Banana
 
         Map<Integer,String> map = new HashMap<>();
         //Add elements to the HashMap
@@ -40,6 +41,8 @@ public class HashMapDemo {
         linkedHashMap.put(4,"Mango");
         linkedHashMap.put(3,"Grapes");
         linkedHashMap.put(5,"Banana");
+        linkedHashMap.put(5,"Kiwi");
+
         linkedHashMap.put(null,"Apple");
 
         //Print the HashMap
@@ -57,7 +60,7 @@ public class HashMapDemo {
        // treeMap.put(null,"Apple"); // This will throw NullPointerException -> null > apple...> null Pointrt
 
         //Print the HashMap
-        System.out.println("LinkedHashMap output (order preserved): " + treeMap);
+        System.out.println("TreeMap output (order in sorted): " + treeMap);
 
 
 
