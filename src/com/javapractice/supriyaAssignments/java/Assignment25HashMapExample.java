@@ -51,7 +51,7 @@ public class Assignment25HashMapExample {
             System.out.println("Is contact with ID " + (entry.getKey()) +" present? true");
         }
         else {
-            System.out.println("Is contact with ID "+(entry.getKey()) +" present? true");
+            System.out.println("Is contact with ID "+(entry.getKey()) +" present? false");
         }
     }
     }
