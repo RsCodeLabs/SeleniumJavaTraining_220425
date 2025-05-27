@@ -11,7 +11,7 @@ public class Assignment15Polymorphism {
         Printer obj= new Printer();
         //Calling a print method with string as parameter
         obj.print("Its a wonderful day!!");
-        //Calling a print method with string as parameter
+        //Calling a print method with number as parameter
         obj.print(100);
         Bike1 obj2=new Bike1();
         obj2.run();
