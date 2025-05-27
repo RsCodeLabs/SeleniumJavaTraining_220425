@@ -10,6 +10,5 @@ public class AnimalSoundSystem {
         System.out.println("From Cat class:");
         cat1.makeSound();
         cat1.display();
-
     }
 }
