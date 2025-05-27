@@ -4,7 +4,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Assignment22ExceptionHandling {
-    public static void main(String[] args) throws GenericException,InputMismatchException {
+    public static void main(String[] args) throws InputMismatchException {
         try{
             System.out.println("Enter an Integer Number:");
             Scanner scanner = new Scanner(System.in);
