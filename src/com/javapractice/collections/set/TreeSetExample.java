@@ -30,14 +30,14 @@ public class TreeSetExample {
 
         //Higher and lower
         System.out.println("Higher than 45: " + numbers.higher(45));//50
-        System.out.println("Lower than 45: " + numbers.lower(45));//40
+        System.out.println("Lower than 40: " + numbers.lower(45));//40
 
         //Ceiling and floor
         System.out.println("Ceiling of 45: " + numbers.ceiling(45));//50
-        System.out.println("Floor of 23: " + numbers.floor(23));//
+        System.out.println("Floor of 45: " + numbers.floor(23));//
 
         //Subset
-        System.out.println("Subset from 20 to 70: " + numbers.subSet(20, 70)); //20, 40, 50,
+        System.out.println("Subset from 20 to 70: " + numbers.subSet(20, 77)); //20, 40, 50,
 
         //HeadSet
         System.out.println("HeadSet till 50: " + numbers.headSet(50)); //20, 40

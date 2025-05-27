@@ -7,6 +7,7 @@ import java.util.TreeMap;
 
 public class HashMapExample {
     public static void main(String[] args) {
+
         //Create a hashmap
         Map<Integer, String> fruits = new HashMap<>();
         //Adding elements to the hashmap
