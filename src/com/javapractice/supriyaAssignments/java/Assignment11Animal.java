@@ -18,17 +18,25 @@ Call makeSound() for each
      void display(){
          System.out.println("This is display method");
      }
+
+    public static void main(String[] args) {
+        Dog Objdog = new Dog();
+        Cat ObjCat = new Cat();
+        Objdog.makeSound();
+        ObjCat.makeSound();
+
+    }
  }
     class Dog extends Assignment11Animal {
         @Override
         void makeSound() {
-            System.out.println("Woof!");
+            System.out.println("Dog says: Woof!");
         }
     }
     class Cat extends Assignment11Animal {
         @Override
             void makeSound () {
-            System.out.println("Meow!");
+            System.out.println("Cat says: Meow!");
         }
     }
 
