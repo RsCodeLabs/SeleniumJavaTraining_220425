@@ -3,7 +3,6 @@ package com.javapractice.supriyaAssignments.java;
 public class Assignment5AverageofNos {
     public static void main(String[] args) {
         int sum =0;
-        int i;
         int average;
         int[] array1 = {10, 20, 30, 40, 50};
         int count = array1.length;
