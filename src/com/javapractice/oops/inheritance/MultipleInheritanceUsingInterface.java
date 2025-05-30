@@ -18,4 +18,8 @@ class child implements Father2, Mother2{
 
 
 public class MultipleInheritanceUsingInterface {
+    public static void main(String[] args) {
+        child objc1= new child();
+        objc1.job();
+    }
 }
